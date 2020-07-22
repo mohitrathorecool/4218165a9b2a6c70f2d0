@@ -79,13 +79,13 @@ class Listing extends Component
 
         <View style={styles.body}>
         <View style={{ flexDirection: 'column',padding:10,alignItems:'center' ,margin:2}}>
-<View style={{height:200,width:400}}>
+
 <SvgUri
    width= "30%"
     height= "30%" 
    uri = {this.state.imageurl} 
 />
-</View>
+
 <Text style={{fontSize:22,fontWeight:'bold'}}>Capital : {this.state.capital}</Text>
 <Text style={{fontSize:22,fontWeight:'bold'}}>Population : {this.state.popultation}</Text>
 <Text style={{fontSize:22,fontWeight:'bold'}}>lat lng : {this.state.lat}</Text>
